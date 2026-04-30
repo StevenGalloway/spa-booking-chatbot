@@ -1,0 +1,67 @@
+version: '3.8'
+
+# AURA Platform — Docker Compose (Development)
+# For production, use an orchestrator (ECS, GKE, or Kubernetes) with
+# environment-specific secrets injected at runtime.
+
+services:
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: aura-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - aura_data:/app/data
+      - ./backend/app:/app/app   # Hot-reload in development
+    environment:
+      - PYTHONPATH=/app
+      - ENVIRONMENT=development
+      - DATABASE_URL=sqlite:///./aura.db
+      - LOG_LEVEL=INFO
+      - LOG_FORMAT=json
+      - AUTH_ENABLED=false
+      - ML_ENABLED=true
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health/live"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 25s
+    restart: unless-stopped
+    networks:
+      - aura-network
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: aura-frontend
+    ports:
+      - "8501:8501"
+    environment:
+      - API_BASE_URL=http://backend:8000/api/v1
+    depends_on:
+      backend:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 25s
+    restart: unless-stopped
+    networks:
+      - aura-network
+
+volumes:
+  aura_data:
+    driver: local
+
+networks:
+  aura-network:
+    driver: bridge
+    labels:
+      com.aura.description: "AURA Platform internal network"
