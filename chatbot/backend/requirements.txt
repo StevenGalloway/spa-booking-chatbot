@@ -1,0 +1,36 @@
+# AURA Platform — Backend Dependencies
+# Pin major versions; patch versions float for security fixes
+
+# Web framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Data validation
+pydantic==2.5.0
+pydantic-settings==2.1.0
+python-multipart==0.0.6
+
+# LangGraph workflow engine
+langgraph
+
+# ML / NLP
+transformers
+torch
+scikit-learn
+numpy
+
+# Data processing
+pandas
+python-dateutil
+
+# Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# Rate limiting
+slowapi==0.1.9
+
+# Testing (kept here so CI can install from a single requirements file)
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2
