@@ -1,0 +1,56 @@
+ID,Service_Name,Category,Avg_Spending,Duration_Minutes,Description
+1,Swedish Massage,Massage,85,60,Gentle full-body massage promoting deep relaxation and circulation
+2,Deep Tissue Massage,Massage,110,60,Targets deep muscle layers to relieve chronic tension and knots
+3,Hot Stone Massage,Massage,125,75,Heated basalt stones melt away tension and improve energy flow
+4,Neck and Shoulder Massage,Massage,65,30,Targeted relief for upper body tension and desk fatigue
+5,Aromatherapy Massage,Massage,95,60,Swedish technique enhanced with therapeutic essential oils
+6,Thai Massage,Massage,100,60,Traditional passive stretching and acupressure on a floor mat
+7,Sports Massage,Massage,120,60,Performance-focused massage for pre/post athletic activity
+8,Prenatal Massage,Massage,90,60,Gentle side-lying massage safe for expecting mothers
+9,Reflexology,Massage,75,45,Pressure points on the feet that correspond to body organs
+10,Full Body Relaxation,Massage,90,60,Head-to-toe relaxation experience with light-medium pressure
+11,Shiatsu Massage,Massage,100,60,Japanese finger-pressure technique following meridian pathways
+12,Trigger Point Massage,Massage,105,60,Precisely targets hyperirritable muscle knots for release
+13,Lymphatic Drainage Massage,Massage,110,60,Light rhythmic strokes to stimulate the lymphatic system
+14,Craniosacral Therapy,Massage,120,75,Gentle manipulations of the craniosacral system for relief
+15,Myofascial Release,Massage,110,60,Sustained pressure to release myofascial restrictions
+16,Cupping Therapy,Massage,85,45,Negative pressure cups to increase blood flow and release fascia
+17,Reiki,Massage,90,60,Energy healing through light touch balancing the body's energy
+18,Couples Massage,Massage,180,60,Side-by-side massage experience for two in a private suite
+19,Chair Massage,Massage,45,15,Seated upper-body massage ideal for corporate events
+20,Foot Massage,Massage,60,30,Therapeutic foot treatment targeting pressure points
+21,Back Massage,Massage,75,45,Focused treatment on the back releasing tension and pain
+22,Head and Scalp Massage,Massage,55,30,Relaxing scalp massage improving circulation and reducing stress
+23,Watsu Massage,Massage,130,60,Passive bodywork performed in a warm therapeutic pool
+24,Lomi Lomi Massage,Massage,120,75,Hawaiian massage using long flowing strokes and forearms
+25,Balinese Massage,Massage,110,60,Indonesian technique combining acupressure and aromatherapy
+26,Ayurvedic Massage,Massage,115,75,Traditional Indian oil massage aligned with dosha balance
+27,Indian Head Massage,Massage,65,45,Seated massage of the scalp, neck, face, and shoulders
+28,Warm Bamboo Massage,Massage,105,60,Heated bamboo tools used for deep tissue release
+29,Four Hands Massage,Massage,200,60,Two therapists working in synchronized harmony
+30,Oncology Massage,Massage,95,60,Modified gentle massage adapted for cancer patients
+31,Geriatric Massage,Massage,80,45,Adapted techniques for older adults improving mobility
+32,Therapeutic Massage,Massage,100,60,Medically-oriented massage targeting specific conditions
+33,Hatha Yoga Session,Yoga & Meditation,60,60,Foundational yoga postures building strength and flexibility
+34,Vinyasa Flow Yoga,Yoga & Meditation,65,60,Dynamic breath-linked movement sequences for all levels
+35,Yin Yoga,Yoga & Meditation,55,75,Long-held passive poses targeting connective tissue and fascia
+36,Sound Bath Meditation,Yoga & Meditation,70,45,Immersive healing through crystal bowls and Tibetan singing bowls
+37,Guided Breathwork,Yoga & Meditation,50,45,Conscious breathing techniques to reduce stress and anxiety
+38,Mindfulness Meditation,Yoga & Meditation,45,30,Instructor-led mindfulness practice for present-moment awareness
+39,Classic Facial,Facial & Skincare,80,60,Deep cleanse, exfoliation, and mask tailored to your skin type
+40,Hydrating Facial,Facial & Skincare,95,60,Intensive moisture infusion for dry and dehydrated skin
+41,Anti-Aging Facial,Facial & Skincare,130,75,Collagen-boosting treatment targeting fine lines and firmness
+42,Microdermabrasion,Facial & Skincare,120,45,Mechanical exfoliation for smoother brighter complexion
+43,LED Light Therapy,Facial & Skincare,85,30,Targeted light wavelengths treating acne, aging, and inflammation
+44,Chemical Peel,Facial & Skincare,110,45,Controlled exfoliation revealing fresh healthy skin beneath
+45,Traditional Acupuncture,Acupuncture,110,60,Fine needle placement along meridians to restore energy balance
+46,Dry Needling,Acupuncture,95,45,Intramuscular stimulation targeting trigger points for pain relief
+47,Auricular Acupuncture,Acupuncture,80,30,Ear-point stimulation for stress, addiction, and pain management
+48,Scalp Treatment,Hair & Beauty,75,45,Nourishing scalp therapy improving hair health and growth
+49,Hair Restoration Therapy,Hair & Beauty,120,60,Advanced treatment for thinning hair and scalp revitalization
+50,Keratin Treatment,Hair & Beauty,150,90,Smoothing protein treatment for frizz control and shine
+51,Brow Shaping and Tint,Hair & Beauty,45,30,Professional brow sculpting and color enhancement
+52,Lash Extensions,Hair & Beauty,100,90,Semi-permanent extensions for fuller longer lashes
+53,Personal Training Session,Fitness & Wellness,90,60,One-on-one session with a certified personal trainer
+54,Nutrition Consultation,Fitness & Wellness,80,60,Personalized dietary assessment and wellness planning
+55,Body Composition Analysis,Fitness & Wellness,60,30,Detailed measurement of body fat, muscle mass, and metabolic rate
