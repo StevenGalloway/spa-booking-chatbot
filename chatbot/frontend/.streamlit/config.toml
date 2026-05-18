@@ -1,0 +1,15 @@
+[theme]
+# AURA Platform — Deep Teal + Ivory brand palette
+primaryColor     = "#2D6A6A"
+backgroundColor  = "#F7F4EF"
+secondaryBackgroundColor = "#E8E3D8"
+textColor        = "#1C2B2B"
+font             = "sans serif"
+
+[server]
+headless         = true
+enableCORS       = false
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
